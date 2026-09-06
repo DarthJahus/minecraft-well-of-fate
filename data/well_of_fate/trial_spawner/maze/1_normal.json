@@ -1,0 +1,30 @@
+{
+  "spawn_range": 4,
+  "total_mobs": 8.0,
+  "simultaneous_mobs": 2.0,
+  "total_mobs_added_per_player": 2.0,
+  "simultaneous_mobs_added_per_player": 1.0,
+  "ticks_between_spawn": 40,
+  "spawn_potentials": [
+    {
+      "weight": 11,
+      "data": {
+        "entity": {
+          "id": "minecraft:drowned",
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.75
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "well_of_fate:eject/eject_normal"
+    }
+  ]
+}

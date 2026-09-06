@@ -1,0 +1,57 @@
+{
+  "spawn_range": 5,
+  "total_mobs": 10.0,
+  "simultaneous_mobs": 3.0,
+  "total_mobs_added_per_player": 2.0,
+  "simultaneous_mobs_added_per_player": 1.0,
+  "ticks_between_spawn": 35,
+  "spawn_potentials": [
+    {
+      "weight": 11,
+      "data": {
+        "entity": {
+          "id": "minecraft:drowned",
+          "CustomName": "{\"text\":\"Cultiste du Destin\",\"italic\":false}",
+          "HandItems": [
+            {
+              "id": "minecraft:trident",
+              "count": 1
+            },
+            {}
+          ],
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.75
+            }
+          ]
+        },
+        "equipment": {
+          "loot_table": "minecraft:equipment/trial_chamber_melee",
+          "slot_drop_chances": 0.0
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:guardian",
+          "CustomName": "{\"text\":\"Gardien du Destin\",\"italic\":false}",
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.4
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "well_of_fate:eject/eject_normal"
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_rod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_flower",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_stone",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ochre_froglight",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:verdant_froglight",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pearlescent_froglight",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_box",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 7,
+                "minecraft:fire_aspect": 3,
+                "minecraft:looting": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Glaive des Bâtisseurs",
+                "italic": false,
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.15,
+                  "operation": "add_value",
+                  "id": "jahus:builders_knockback",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 8,
+                "minecraft:looting": 5,
+                "minecraft:sweeping_edge": 3
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Lame des Hôtes",
+                "italic": false,
+                "color": "light_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:entity_interaction_range",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.sword",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:impaling": 7,
+                "minecraft:loyalty": 5,
+                "minecraft:channeling": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Trident des Hôtes",
+                "italic": false,
+                "color": "light_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:jump_strength",
+                  "amount": 0.15,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.trident",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:luck",
+                  "amount": 1.0,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.trident",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:impaling": 8,
+                "minecraft:loyalty": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Trident de l'Abysse Noire",
+                "italic": false,
+                "color": "aqua"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:water_movement_efficiency",
+                  "amount": 0.3,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.trident2",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 6,
+                "minecraft:unbreaking": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Cuirasse de l'Ender",
+                "italic": false,
+                "color": "dark_aqua"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:oxygen_bonus",
+                  "amount": 4.0,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.chestplate",
+                  "slot": "chest"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 6,
+                "minecraft:thorns": 4
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Plastron des Bâtisseurs",
+                "italic": false,
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.2,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.chestplate2",
+                  "slot": "chest"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": 5,
+                "minecraft:aqua_affinity": 1,
+                "minecraft:protection": 6
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Casque du Voyageur d'End",
+                "italic": false,
+                "color": "dark_aqua"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:oxygen_bonus",
+                  "amount": 4.0,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.helmet2",
+                  "slot": "head"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": 5,
+                "minecraft:protection": 6
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Heaume des Hôtes",
+                "italic": false,
+                "color": "light_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:jump_strength",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.helmet",
+                  "slot": "head"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": 6,
+                "minecraft:protection": 6,
+                "minecraft:soul_speed": 4
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Bottes des Abysses d'End",
+                "italic": false,
+                "color": "dark_aqua"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:water_movement_efficiency",
+                  "amount": 0.2,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.boots2",
+                  "slot": "feet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": 6,
+                "minecraft:depth_strider": 3
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Bottes du Corsaire Funeste",
+                "italic": false,
+                "color": "aqua"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:water_movement_efficiency",
+                  "amount": 0.25,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.boots",
+                  "slot": "feet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 7,
+                "minecraft:fortune": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Pioche des Bâtisseurs",
+                "italic": false,
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.pickaxe2",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 8,
+                "minecraft:fortune": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Pioche du Second Bâtisseur",
+                "italic": false,
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:submerged_mining_speed",
+                  "amount": 0.3,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.pickaxe",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": 5,
+                "minecraft:mending": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Ailes des Hôtes",
+                "italic": false,
+                "color": "light_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "attribute": "minecraft:gravity",
+                  "amount": -0.02,
+                  "operation": "add_value",
+                  "id": "jahus:bonus.elytra",
+                  "slot": "chest"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_head",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}
