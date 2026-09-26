@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name": "minecraft:cooked_cod",
           "weight": 14,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -27,9 +27,9 @@
           "type": "minecraft:item",
           "name": "minecraft:cooked_salmon",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -42,9 +42,9 @@
           "type": "minecraft:item",
           "name": "minecraft:dried_kelp",
           "weight": 16,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 6,
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:prismarine_shard",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -72,9 +72,9 @@
           "type": "minecraft:item",
           "name": "minecraft:prismarine_crystals",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -92,9 +92,9 @@
           "type": "minecraft:item",
           "name": "minecraft:torch",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -107,9 +107,9 @@
           "type": "minecraft:item",
           "name": "minecraft:arrow",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 4,
@@ -131,9 +131,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -146,9 +146,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:water_breathing"
             }
           ]
@@ -157,9 +157,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:night_vision"
             }
           ]
@@ -168,9 +168,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:healing"
             }
           ]
@@ -179,9 +179,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:regeneration"
             }
           ]

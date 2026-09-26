@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name": "minecraft:arrow",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 6,
@@ -27,9 +27,9 @@
           "type": "minecraft:item",
           "name": "minecraft:spectral_arrow",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -42,9 +42,9 @@
           "type": "minecraft:item",
           "name": "minecraft:firework_rocket",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:strong_healing"
             }
           ]
@@ -68,9 +68,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:regeneration"
             }
           ]
@@ -79,9 +79,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:strength"
             }
           ]
@@ -90,9 +90,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:fire_resistance"
             }
           ]
@@ -101,13 +101,13 @@
           "type": "minecraft:item",
           "name": "minecraft:tipped_arrow",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:harming"
             },
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -120,13 +120,13 @@
           "type": "minecraft:item",
           "name": "minecraft:tipped_arrow",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:slowness"
             },
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -139,9 +139,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_axe",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": 4,
                 "minecraft:unbreaking": 2
@@ -153,9 +153,9 @@
           "type": "minecraft:item",
           "name": "minecraft:shield",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:unbreaking": 2
               }
@@ -175,9 +175,9 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 18,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:piercing": 2,
                 "minecraft:quick_charge": 2
@@ -189,9 +189,9 @@
           "type": "minecraft:item",
           "name": "minecraft:turtle_helmet",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:respiration": 3
               }
@@ -202,9 +202,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -222,9 +222,9 @@
           "type": "minecraft:item",
           "name": "minecraft:trident",
           "weight": 30,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:impaling": 3
               }
@@ -235,9 +235,9 @@
           "type": "minecraft:item",
           "name": "minecraft:trident",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:impaling": 4,
                 "minecraft:loyalty": 2

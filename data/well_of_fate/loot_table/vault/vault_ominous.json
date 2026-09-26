@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name": "minecraft:blaze_rod",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -27,9 +27,9 @@
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
           "weight": 11,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -42,9 +42,9 @@
           "type": "minecraft:item",
           "name": "minecraft:end_rod",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:chorus_flower",
           "weight": 9,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -72,9 +72,9 @@
           "type": "minecraft:item",
           "name": "minecraft:end_stone",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 6,
@@ -102,9 +102,9 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_ingot",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -117,9 +117,9 @@
           "type": "minecraft:item",
           "name": "minecraft:shulker_shell",
           "weight": 9,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -151,9 +151,9 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_sword",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": 7,
                 "minecraft:fire_aspect": 3,
@@ -161,7 +161,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Glaive des Bâtisseurs",
                 "italic": false,
@@ -169,7 +169,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -187,9 +187,9 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_sword",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": 8,
                 "minecraft:looting": 5,
@@ -197,7 +197,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Lame des Hôtes",
                 "italic": false,
@@ -205,7 +205,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -223,9 +223,9 @@
           "type": "minecraft:item",
           "name": "minecraft:trident",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:impaling": 7,
                 "minecraft:loyalty": 5,
@@ -233,7 +233,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Trident des Hôtes",
                 "italic": false,
@@ -241,7 +241,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -266,16 +266,16 @@
           "type": "minecraft:item",
           "name": "minecraft:trident",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:impaling": 8,
                 "minecraft:loyalty": 5
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Trident de l'Abysse Noire",
                 "italic": false,
@@ -283,7 +283,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -301,16 +301,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_chestplate",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 6,
                 "minecraft:unbreaking": 5
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Cuirasse de l'Ender",
                 "italic": false,
@@ -318,7 +318,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -336,16 +336,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_chestplate",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 6,
                 "minecraft:thorns": 4
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Plastron des Bâtisseurs",
                 "italic": false,
@@ -353,7 +353,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -371,9 +371,9 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:respiration": 5,
                 "minecraft:aqua_affinity": 1,
@@ -381,7 +381,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Casque du Voyageur d'End",
                 "italic": false,
@@ -389,7 +389,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -407,16 +407,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:respiration": 5,
                 "minecraft:protection": 6
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Heaume des Hôtes",
                 "italic": false,
@@ -424,7 +424,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -442,9 +442,9 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_boots",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:feather_falling": 6,
                 "minecraft:protection": 6,
@@ -452,7 +452,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Bottes des Abysses d'End",
                 "italic": false,
@@ -460,7 +460,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -478,16 +478,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_boots",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:feather_falling": 6,
                 "minecraft:depth_strider": 3
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Bottes du Corsaire Funeste",
                 "italic": false,
@@ -495,7 +495,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -513,16 +513,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_pickaxe",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:efficiency": 7,
                 "minecraft:fortune": 5
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Pioche des Bâtisseurs",
                 "italic": false,
@@ -530,7 +530,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -548,16 +548,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_pickaxe",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:efficiency": 8,
                 "minecraft:fortune": 5
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Pioche du Second Bâtisseur",
                 "italic": false,
@@ -565,7 +565,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {
@@ -583,16 +583,16 @@
           "type": "minecraft:item",
           "name": "minecraft:elytra",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:unbreaking": 5,
                 "minecraft:mending": 1
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Ailes des Hôtes",
                 "italic": false,
@@ -600,7 +600,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "replace": false,
               "modifiers": [
                 {

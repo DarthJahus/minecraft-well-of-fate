@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "weight": 12,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -27,9 +27,9 @@
           "type": "minecraft:item",
           "name": "minecraft:blaze_rod",
           "weight": 14,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -42,9 +42,9 @@
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:end_rod",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -72,9 +72,9 @@
           "type": "minecraft:item",
           "name": "minecraft:chorus_flower",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -87,9 +87,9 @@
           "type": "minecraft:item",
           "name": "minecraft:end_stone",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 4,
@@ -122,9 +122,9 @@
           "type": "minecraft:item",
           "name": "minecraft:shulker_shell",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -137,9 +137,9 @@
           "type": "minecraft:item",
           "name": "minecraft:ominous_bottle",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:ominous_bottle_amplifier": 4
               }
@@ -159,16 +159,16 @@
           "type": "minecraft:item",
           "name": "minecraft:trident",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:impaling": 6,
                 "minecraft:loyalty": 4
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Trident des Abysses",
                 "italic": false,
@@ -181,9 +181,9 @@
           "type": "minecraft:item",
           "name": "minecraft:trident",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:impaling": 7,
                 "minecraft:loyalty": 4,
@@ -191,7 +191,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Trident du Capitaine Noir",
                 "italic": false,
@@ -204,9 +204,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": 6,
                 "minecraft:sweeping_edge": 4,
@@ -214,7 +214,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Lame du Corsaire",
                 "italic": false,
@@ -227,9 +227,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": 7,
                 "minecraft:fire_aspect": 3,
@@ -237,7 +237,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Sabre des Marées",
                 "italic": false,
@@ -250,16 +250,16 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 5,
                 "minecraft:unbreaking": 4
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Cuirasse du Navigateur",
                 "italic": false,
@@ -272,16 +272,16 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 5,
                 "minecraft:thorns": 3
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Plastron du Flibustier",
                 "italic": false,
@@ -294,16 +294,16 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:piercing": 5,
                 "minecraft:quick_charge": 4
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Arbalète des Marées",
                 "italic": false,
@@ -316,9 +316,9 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:piercing": 5,
                 "minecraft:multishot": 1,
@@ -326,7 +326,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Arbalète du Corsaire",
                 "italic": false,
@@ -339,16 +339,16 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_boots",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:feather_falling": 5,
                 "minecraft:protection": 4
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Bottes du Capitaine",
                 "italic": false,
@@ -361,16 +361,16 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_boots",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:feather_falling": 5,
                 "minecraft:depth_strider": 3
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Bottes des Abysses",
                 "italic": false,

@@ -12,10 +12,32 @@
         "entity": {
           "id": "minecraft:drowned",
           "CustomName": "{\"text\":\"Cultiste du Destin\",\"italic\":false}",
-          "HandItems": [ { "id": "minecraft:trident", "count": 1 }, {} ],
-          "attributes": [ { "id": "minecraft:scale", "base": 0.75 } ]
+          "HandItems": [
+            {
+              "id": "minecraft:trident",
+              "count": 1
+            },
+            {}
+          ],
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.75
+            },
+            {
+              "id": "minecraft:water_movement_efficiency",
+              "base": 1.0
+            },
+            {
+              "id": "minecraft:movement_speed",
+              "base": 0.5
+            }
+          ]
         },
-        "equipment": { "loot_table": "minecraft:equipment/trial_chamber_melee", "slot_drop_chances": 0.0 }
+        "equipment": {
+          "loot_table": "minecraft:equipment/trial_chamber_melee",
+          "slot_drop_chances": 0.0
+        }
       }
     },
     {
@@ -24,7 +46,12 @@
         "entity": {
           "id": "minecraft:guardian",
           "CustomName": "{\"text\":\"Gardien du Destin\",\"italic\":false}",
-          "attributes": [ { "id": "minecraft:scale", "base": 0.5 } ]
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.5
+            }
+          ]
         }
       }
     },
@@ -34,7 +61,12 @@
         "entity": {
           "id": "minecraft:elder_guardian",
           "CustomName": "{\"text\":\"Prêtre du Destin\",\"italic\":false}",
-          "attributes": [ { "id": "minecraft:scale", "base": 0.4 } ]
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.4
+            }
+          ]
         }
       }
     },
@@ -44,9 +76,25 @@
         "entity": {
           "id": "minecraft:skeleton",
           "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
-          "attributes": [ { "id": "minecraft:scale", "base": 0.75 } ]
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.75
+            },
+            {
+              "id": "minecraft:water_movement_efficiency",
+              "base": 0.25
+            },
+            {
+              "id": "minecraft:movement_speed",
+              "base": 0.3
+            }
+          ]
         },
-        "equipment": { "loot_table": "minecraft:equipment/trial_chamber_ranged", "slot_drop_chances": 0.0 }
+        "equipment": {
+          "loot_table": "minecraft:equipment/trial_chamber_ranged",
+          "slot_drop_chances": 0.0
+        }
       }
     },
     {
@@ -55,9 +103,25 @@
         "entity": {
           "id": "minecraft:stray",
           "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
-          "attributes": [ { "id": "minecraft:scale", "base": 0.75 } ]
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.75
+            },
+            {
+              "id": "minecraft:water_movement_efficiency",
+              "base": 0.25
+            },
+            {
+              "id": "minecraft:movement_speed",
+              "base": 0.3
+            }
+          ]
         },
-        "equipment": { "loot_table": "minecraft:equipment/trial_chamber_ranged", "slot_drop_chances": 0.0 }
+        "equipment": {
+          "loot_table": "minecraft:equipment/trial_chamber_ranged",
+          "slot_drop_chances": 0.0
+        }
       }
     },
     {
@@ -66,13 +130,32 @@
         "entity": {
           "id": "minecraft:bogged",
           "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
-          "attributes": [ { "id": "minecraft:scale", "base": 0.75 } ]
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 0.75
+            },
+            {
+              "id": "minecraft:water_movement_efficiency",
+              "base": 0.25
+            },
+            {
+              "id": "minecraft:movement_speed",
+              "base": 0.3
+            }
+          ]
         },
-        "equipment": { "loot_table": "minecraft:equipment/trial_chamber_ranged", "slot_drop_chances": 0.0 }
+        "equipment": {
+          "loot_table": "minecraft:equipment/trial_chamber_ranged",
+          "slot_drop_chances": 0.0
+        }
       }
     }
   ],
   "loot_tables_to_eject": [
-    { "weight": 1, "data": "well_of_fate:eject/eject_normal" }
+    {
+      "weight": 1,
+      "data": "well_of_fate:eject/eject_normal"
+    }
   ]
 }
