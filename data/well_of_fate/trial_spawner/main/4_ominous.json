@@ -13,7 +13,7 @@
           "id": "minecraft:drowned",
           "CustomName": "{\"text\":\"Cultiste du Destin\",\"italic\":false}",
           "HandItems": [ { "id": "minecraft:trident", "count": 1, "components": { "minecraft:enchantments": { "levels": { "minecraft:impaling": 4, "minecraft:loyalty": 2 } } } }, {} ],
-          "attributes": [ { "id": "minecraft:scale", "base": 0.75 } ]
+          "attributes": [ { "id": "minecraft:scale", "base": 0.75 }, { "id": "minecraft:water_movement_efficiency", "base": 1.0 }, { "id": "minecraft:movement_speed", "base": 0.7 } ]
         },
         "equipment": { "loot_table": "minecraft:equipment/trial_chamber_melee", "slot_drop_chances": 0.0 }
       }
@@ -44,7 +44,7 @@
         "entity": {
           "id": "minecraft:skeleton",
           "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
-          "attributes": [ { "id": "minecraft:scale", "base": 0.75 } ]
+          "attributes": [ { "id": "minecraft:scale", "base": 0.75 }, { "id": "minecraft:water_movement_efficiency", "base": 0.25 }, { "id": "minecraft:movement_speed", "base": 0.5 } ]
         },
         "equipment": { "loot_table": "minecraft:equipment/trial_chamber_ranged", "slot_drop_chances": 0.0 }
       }
@@ -55,7 +55,7 @@
         "entity": {
           "id": "minecraft:stray",
           "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
-          "attributes": [ { "id": "minecraft:scale", "base": 0.75 } ]
+          "attributes": [ { "id": "minecraft:scale", "base": 0.75 }, { "id": "minecraft:water_movement_efficiency", "base": 0.25 }, { "id": "minecraft:movement_speed", "base": 0.5 } ]
         },
         "equipment": { "loot_table": "minecraft:equipment/trial_chamber_ranged", "slot_drop_chances": 0.0 }
       }
@@ -66,7 +66,7 @@
         "entity": {
           "id": "minecraft:bogged",
           "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
-          "attributes": [ { "id": "minecraft:scale", "base": 0.75 } ]
+          "attributes": [ { "id": "minecraft:scale", "base": 0.75 }, { "id": "minecraft:water_movement_efficiency", "base": 0.25 }, { "id": "minecraft:movement_speed", "base": 0.5 } ]
         },
         "equipment": { "loot_table": "minecraft:equipment/trial_chamber_ranged", "slot_drop_chances": 0.0 }
       }
@@ -79,12 +79,13 @@
           "CustomName": "{\"text\":\"Gardien des Hôtes\",\"italic\":false,\"color\":\"light_purple\"}",
           "attributes": [
             { "id": "minecraft:scale", "base": 0.6 },
-            { "id": "minecraft:max_health", "base": 80.0 }
+            { "id": "minecraft:max_health", "base": 120.0 }
           ],
-          "Health": 80.0,
+          "Health": 120.0,
           "active_effects": [
-            { "id": "minecraft:strength", "amplifier": 1, "duration": 999999 },
-            { "id": "minecraft:resistance", "amplifier": 0, "duration": 999999 }
+            { "id": "minecraft:strength", "amplifier": 1, "duration": -1 },
+            { "id": "minecraft:resistance", "amplifier": 1, "duration": -1 },
+            { "id": "minecraft:regeneration", "amplifier": 1, "duration": -1 }
           ]
         }
       }

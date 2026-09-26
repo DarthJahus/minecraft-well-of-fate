@@ -12,10 +12,9 @@
         "entity": {
           "id": "minecraft:drowned",
           "attributes": [
-            {
-              "id": "minecraft:scale",
-              "base": 0.75
-            }
+            {"id": "minecraft:scale","base": 0.75},
+            {"id": "minecraft:water_movement_efficiency","base": 1},
+            {"id": "minecraft:movement_speed","base": 0.5}
           ]
         }
       }
