@@ -11,7 +11,10 @@
       "data": {
         "entity": {
           "id": "minecraft:drowned",
-          "CustomName": "{\"text\":\"Cultiste du Destin\",\"italic\":false}",
+          "CustomName": {
+            "text": "Cultiste du Destin",
+            "italic": false
+          },
           "HandItems": [
             {
               "id": "minecraft:trident",
@@ -45,7 +48,10 @@
       "data": {
         "entity": {
           "id": "minecraft:guardian",
-          "CustomName": "{\"text\":\"Gardien du Destin\",\"italic\":false}",
+          "CustomName": {
+            "text": "Gardien du Destin",
+            "italic": false
+          },
           "attributes": [
             {
               "id": "minecraft:scale",
@@ -60,7 +66,10 @@
       "data": {
         "entity": {
           "id": "minecraft:elder_guardian",
-          "CustomName": "{\"text\":\"Prêtre du Destin\",\"italic\":false}",
+          "CustomName": {
+            "text": "Prêtre du Destin",
+            "italic": false
+          },
           "attributes": [
             {
               "id": "minecraft:scale",
@@ -75,7 +84,10 @@
       "data": {
         "entity": {
           "id": "minecraft:skeleton",
-          "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
+          "CustomName": {
+            "text": "Archer du Destin",
+            "italic": false
+          },
           "attributes": [
             {
               "id": "minecraft:scale",
@@ -102,7 +114,10 @@
       "data": {
         "entity": {
           "id": "minecraft:stray",
-          "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
+          "CustomName": {
+            "text": "Archer du Destin",
+            "italic": false
+          },
           "attributes": [
             {
               "id": "minecraft:scale",
@@ -129,7 +144,10 @@
       "data": {
         "entity": {
           "id": "minecraft:bogged",
-          "CustomName": "{\"text\":\"Archer du Destin\",\"italic\":false}",
+          "CustomName": {
+            "text": "Archer du Destin",
+            "italic": false
+          },
           "attributes": [
             {
               "id": "minecraft:scale",

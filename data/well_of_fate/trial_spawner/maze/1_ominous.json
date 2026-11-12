@@ -11,7 +11,10 @@
       "data": {
         "entity": {
           "id": "minecraft:drowned",
-          "CustomName": "{\"text\":\"Cultiste du Destin\",\"italic\":false}",
+          "CustomName": {
+            "text": "Cultiste du Destin",
+            "italic": false
+          },
           "HandItems": [
             {
               "id": "minecraft:trident",
